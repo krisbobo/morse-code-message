@@ -17,3 +17,11 @@ def morse_to_word(phrase)
   phrase_array.each { |section| word += morse_to_character(section) }
   word
 end
+
+def decode(message)
+  sentence = ''
+  message_array = message.split('   ')
+  message_array.each { |section| sentence += " #{morse_to_word(section)}" }
+  sentence.strip
+end
+puts decode('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
