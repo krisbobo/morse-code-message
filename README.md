@@ -54,7 +54,7 @@
 To get a local copy up and running, follow these steps:
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
+  - `https://github.com/krisbobo/morse-code-message.git`
 - Run the code with ruby
 
 ### Prerequisites
@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
+  - `https://github.com/krisbobo/morse-code-message.git`
 
 ### Install
 
