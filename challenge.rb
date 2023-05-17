@@ -10,3 +10,10 @@ def morse_to_character(morse)
   morse_hash.each { |key, value| character = key.upcase.to_s if value == morse }
   character
 end
+
+def morse_to_word(phrase)
+  word = ''
+  phrase_array = phrase.split
+  phrase_array.each { |section| word += morse_to_character(section) }
+  word
+end
